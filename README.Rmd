@@ -103,7 +103,7 @@ summary(df)
 ```{r ex-3, fig.width=3, fig.height=3, eval = FALSE}
 # Data preparation
 data_file <-system.file("demo_data", "toothgrowth.txt", package = "pubr")
-df <- paste_data(data_file)
+df <- pubr::paste_data(data_file)
 
 # Create a boxplot
 summary(df)

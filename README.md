@@ -91,7 +91,7 @@ clipboard](tools/render-r-script-using-data-from-clipboard.gif)
 ``` r
 # Data preparation
 data_file <-system.file("demo_data", "toothgrowth.txt", package = "pubr")
-df <- paste_data(data_file)
+df <- pubr::paste_data(data_file)
 
 # Create a boxplot
 summary(df)
