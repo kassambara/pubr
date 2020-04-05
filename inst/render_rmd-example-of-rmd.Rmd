@@ -1,0 +1,28 @@
+## Step 1: Compute statistical tests
+
+In this section we'll compute t-test using the **rstatix** package
+
+   
+```{r t-test}
+library(rstatix)
+# Data preparation
+df <- ToothGrowth
+df$dose <- as.factor(df$dose)
+stat.test <- df %>% t_test(len ~ dose)
+stat.test
+```
+
+
+## Step 2: Create a box plot showing p-values
+
+We'll use **ggpubr** for publication ready plots.
+   
+   
+```{r box-plot, fig.width=4, fig.height=4}
+library(ggpubr)
+# Create a box plot
+bxp <- ggboxplot(df, x = "dose", y = "len")
+# Add p-values
+stat.test <- stat.test %>% add_xy_position(x = "dose")
+bxp + stat_pvalue_manual(stat.test)
+```

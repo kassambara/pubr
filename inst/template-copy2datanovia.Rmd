@@ -1,0 +1,19 @@
+---
+title: "_TITLE_"
+output: 
+  html_document:
+    fig_caption: no
+    self_contained: false
+    theme: cerulean
+    highlight: null
+    mathjax: null
+    lib_dir: libs
+---
+
+<!--RDOC-->
+<div class="rdoc">
+    
+_RDOC_CONTENT_
+    
+</div>
+<!--RDOC-->

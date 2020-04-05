@@ -1,0 +1,34 @@
+Package: pubr
+Type: Package
+Title: Publish from R to Web
+Version: 0.1.0
+Date: 2018-09-08
+Authors@R: c(
+    person("Alboukadel", "Kassambara", role = c("aut", "cre"), email = "alboukadel.kassambara@gmail.com")
+    )
+Description: Publish reproducible example from R to the web.
+License: GPL-2
+LazyData: true
+Encoding: UTF-8
+Depends:
+    R (>= 3.1.2)
+Imports:
+    rmarkdown (>= 1.4),
+    magrittr,
+    readr,
+    stringr,
+    knitr,
+    markdown,
+    clipr,
+    rstudioapi,
+    reprex (>= 0.3.0),
+    datapasta
+Remotes:
+    tidyverse/reprex
+URL: https://www.datanovia.com/en
+BugReports: https://github.com/kassambara/pubr/issues
+RoxygenNote: 7.1.0
+Collate: 
+    'utilities.R'
+    'paste_data.R'
+    'render_r.R'

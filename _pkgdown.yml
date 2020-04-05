@@ -1,0 +1,11 @@
+templates:
+  params:
+    bootswatch: lumen
+
+reference:
+  - title: Post Reproducible R Codes do Datanovia
+    contents:
+      - paste_data
+      - render_r
+      - render_rmd
+
