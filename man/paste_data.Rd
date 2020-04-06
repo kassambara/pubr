@@ -11,7 +11,7 @@ paste_data(input = "clipboard", ...)
 tibble or a (csv|tsv) file containing a data frame.}
 
 \item{...}{other arguments passed to the functions
-\code{\link[readr]{read_tsv}()} or \code{\link[readr]{read_csv}()}
+\code{readr::read_tsv()} or \code{readr::read_csv()}
 depending on the input extension.}
 }
 \description{

@@ -6,7 +6,7 @@ NULL
 #' @param input can be data from clipboard (default), a vector, data.frame, a
 #'   tibble or a (csv|tsv) file containing a data frame.
 #' @param ... other arguments passed to the functions
-#'   \code{\link[readr]{read_tsv}()} or \code{\link[readr]{read_csv}()}
+#'   \code{readr::read_tsv()} or \code{readr::read_csv()}
 #'   depending on the input extension.
 #' @export
 paste_data <- function(input = "clipboard", ...){

@@ -51,7 +51,7 @@ ggboxplot(df, x = "dose", y = "len")
 ```
 
 ![Render R script using built-in
-data](tools/render-r-script-using-built-in-r-data.gif)
+data](https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/r-tutorial/images/render-r-script-using-built-in-r-data.gif)
 
 ## Example 2: Reproducible R script using data from clipboard
 
@@ -74,7 +74,7 @@ summary(df)
 ```
 
 ![Render R script using data from
-clipboard](tools/render-r-script-using-data-from-clipboard.gif)
+clipboard](https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/r-tutorial/images/render-r-script-using-data-from-clipboard.gif)
 
 ## Example 3: Reproducible R script using external data file
 
@@ -105,4 +105,10 @@ summary(df)
     a HTML block, which is automatically copied into the clipboard.
 4.  Paste into a website comment area or into a blog post
 
-![Render Rmd contents](tools/render-rmd-contents-web.gif)
+![Render Rmd
+contents](https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/r-tutorial/images/render-rmd-contents-web.gif)
+
+## Related blog posts
+
+  - [Publish Reproducible Examples from R to Datanovia
+    Website](https://www.datanovia.com/en/blog/publish-reproducible-examples-from-r-to-datanovia-website/)
